@@ -8,7 +8,10 @@ h2{
     position: relative;
 }
 .contanier{
-    margin:20px;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-bottom:20px;
     text-align:center;
     height: 400px;
 }
@@ -60,4 +63,10 @@ h2{
     display:inline-block;
     width:20px;
     height:20px;
+}
+#template{
+    white-space: nowrap;
+    position:absolute;
+    top:10px;
+    display:none;
 }
