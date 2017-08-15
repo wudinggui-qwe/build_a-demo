@@ -55,10 +55,14 @@ $(function(){
         var r = Math.floor(Math.random() * 254);
         var g = Math.floor(Math.random() * 254);
         var b = Math.floor(Math.random() * 254);
+        var zi= Math.floor(Math.random() * 30);
+        var zi1=Math.floor(Math.random() * 10);
+        if(zi<10)  {while(zi<10+zi1) zi++;}
         var l="rgb(" + r + "," + g + "," + b + ")";
         odiv.css({
             "color": l,
-            display: "block"
+            "display": "block",
+            "font-size":zi+"px"
          });
     }
     function change_top_left(odiv){
